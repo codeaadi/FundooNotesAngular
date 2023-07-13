@@ -1,0 +1,46 @@
+<div class="container">
+    <div class="main">
+        <div class="google">
+            <div class="txt G">G</div>
+            <div class="txt o">o</div>
+            <div class="txt O">o</div>
+            <div class="txt G">g</div>
+            <div class="txt l">l</div>
+            <div class="txt e">e</div>
+          </div>
+          <div class="sign">Sign In</div>
+          <div class="gacc">to continue to googe account</div>
+        <form [formGroup]="login" (ngSubmit)="onsubmit()" >
+
+            <div class="Email">
+                <mat-form-field appearance="outline" class="user">
+                    <mat-label>Email or Phone</mat-label>
+                    <input formControlName="email" matInput placeholder="email" />
+                  </mat-form-field>
+                <div class="forgetE">
+                    <a href="#">Forget Email?</a>
+                </div>
+                
+            </div>
+            <div class="wrong">Not your computer? Use Guest mode to sign in privately.
+            </div>
+            <div class="learnm">
+                <a class="learn" href="#">Learn More</a>
+            </div>
+                <div class="pass">
+                <mat-form-field class=" last" appearance="outline" >
+                  <mat-label>Password</mat-label>
+                  <input formControlName="password" matInput placeholder="Password" />
+                </mat-form-field>
+                <div class="forgetpass">
+                    <a href="#">Forget Password?</a>
+                </div>
+                <div class="navi">
+                    <a class="signI" href="#">Create Account</a>
+                    <button class="nxt" type="submit">Next</button>
+                  </div>
+            </div>
+        </form>
+
+    </div>
+</div>

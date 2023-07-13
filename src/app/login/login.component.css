@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    padding: 25px;
+}
+.google{
+    display: flex;
+  padding: 20px 10px 20px 13px;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+}
+.txt{
+    font-size: 35px
+}
+.G{
+    color:#4285F4;
+}
+.o{
+    color: #DB4437;
+}
+.O{
+    color: #F4B400;
+}
+.l{
+    color: #0F9D58;
+}
+.e{
+    color: #F4B400;
+}
+.first{
+    width:423px;
+   
+}
+.sign{
+    font-size: 25px;
+    margin:  5px 0px 18px 0px;
+}
+.gacc{
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+.Email{
+    width: 100%;
+    height: auto;
+}
+.user{
+    width: 400px;
+   
+}
+a{
+    text-decoration: none;
+    color: #4285F4;
+}
+.forgetE, .forgetpass{
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+    font-size: 15px;
+    border-radius: 7px;
+}
+.wrong{
+    margin-left: 20px;
+    
+} 
+.learnm{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.last{
+    width: 400px;
+}
+.lm{
+    width: 400px;
+    height: 45px;
+    padding: 30px;
+    font-size: 15px;
+    border-radius: 7px;
+
+}
+.navi{
+    display: flex;
+justify-content: space-between;
+margin-top: 20px;
+margin-bottom: 10px;
+margin-left: 12px;
+}
+.signI{
+text-decoration: none;
+font-size: 20px;
+}
+.nxt{
+width: 100px;
+height: 40px;
+background-color: #4285F4;
+color: white;
+letter-spacing: 1px;
+border-radius: 7px;
+}

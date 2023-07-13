@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+     display: flex;
+    justify-content: flex-start;
+    width:790px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 15px;
+}
+.container{
+    width: 100%;
+    height: 100%;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    display:flex;
+    justify-self:flex-start;
+    flex-direction: column ;
+   
+}
+.google{
+    display: flex;
+  padding: 20px 10px 20px 13px;
+  font-family: sans-serif;
+}
+.G{
+    color:#4285F4;
+}
+.o{
+    color: #DB4437;
+}
+.O{
+    color: #F4B400;
+}
+.l{
+    color: #0F9D58;
+}
+.e{
+    color: #F4B400;
+}
+.txt{
+    font-size: 40px;
+    font-family: sans-serif;
+
+}
+.txt1{
+    font-size: 30px;
+    padding: 10px 10px 5px 13px;
+}
+.Name{
+    width:fit-content;
+    height:fit-content;
+    padding-top:20px;
+}
+.first{
+    height: 100%;
+    padding: 0;
+    width: 200px;
+    margin-right: 15px;
+  
+}
+.last{
+    height: 100%;
+    padding: 0;
+    width: 150px;
+   
+}
+
+
+img{
+    object-fit: cover;
+    width: 330px;
+    height:100%
+}
+.emaildiv{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+
+.user{
+    width: 100%;
+    width: 425px;
+    height: 40px;
+   
+}
+
+.inst{
+    font-size: 15px;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+.anchor{
+    font-size: 15px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+}
+/* .pass{
+
+} */
+.password {
+    height: 100%;
+    padding: 0;
+    width: 200px;
+    margin-right: 15px;
+
+
+}
+.confirm{
+    height: 100%;
+    padding: 0;
+    width: 210px;
+ 
+}
+.spn{
+    margin: 0px 0px 0px 20px;
+}
+.char{
+    position: relative;
+    bottom: 20px;
+    font-size: 15px;
+
+}
+.navi{
+        display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 12px;
+}
+.signI{
+    text-decoration: none;
+    font-size: 20px;
+}
+.nxt{
+    width: 100px;
+    height: 40px;
+    background-color: #4285F4;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 7px;
+}

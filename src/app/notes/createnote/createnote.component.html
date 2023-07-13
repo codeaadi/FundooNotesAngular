@@ -1,0 +1,60 @@
+<div class="main">
+<div class="container" >
+    <div class="text"(click)="togle=!togle">Take a note...</div>
+    <div class="newList">
+        <svg 
+        xmlns="http://www.w3.org/2000/svg" 
+        height="48" 
+        viewBox="0 -960 960 960" 
+        width="48">
+        <path d="m419-321 289-289-43-43-246 246-119-119-43 43 162 162ZM180-120q-24 0-42-18t-18-42v-600q0-24 18-42t42-18h600q24 0 42 18t18 42v600q0 24-18 42t-42 18H180Zm0-60h600v-600H180v600Zm0-600v600-600Z"/>
+        </svg>
+    </div>
+    <div class="brsh">
+       
+        <svg 
+        xmlns="http://www.w3.org/2000/svg" 
+        height="48" 
+        viewBox="0 -960 960 960" 
+        width="48">
+        <path d="M215-117q-33.835 0-66.917-11.5Q115-140 90-166q35-12 50-35t15-62q0-43.75 30.676-74.375Q216.353-368 260.176-368 304-368 334.5-337.375T365-263q0 64-43.5 105T215-117Zm0-60q35 0 62.5-25t27.5-61q0-20-12.5-32.5T260-308q-20 0-32.5 12.5T215-263q0 39-8.5 57.5T175-183q6 1 20 3.5t20 2.5Zm230-177-90-95 376-376q14-14 31-14.5t32 14.5l29 29q15 15 14.5 32.5T823-732L445-354Zm-185 91Z"/>
+        </svg>
+    </div>
+    <div class="nimg">
+        <svg 
+        xmlns="http://www.w3.org/2000/svg" 
+        height="48" 
+        viewBox="0 -960 960 960" 
+        width="48">
+        <path d="M180-120q-24 0-42-18t-18-42v-600q0-24 18-42t42-18h600q24 0 42 18t18 42v600q0 24-18 42t-42 18H180Zm0-60h600v-600H180v600Zm56-97h489L578-473 446-302l-93-127-117 152Zm-56 97v-600 600Z"/>
+        </svg>
+    </div>   
+</div>
+</div> 
+<div class="main" *ngif="!togle">
+    <div class="container1">
+    <div class="title">
+        <div class="t">
+       <input type="text" placeholder="Title" class="ttl">
+        </div>
+       <div class="pin">
+        <svg 
+        xmlns="http://www.w3.org/2000/svg" 
+        height="48" 
+        viewBox="0 -960 960 960" 
+        width="48">
+        <path d="m634-448 86 77v60H510v241l-30 30-30-30v-241H240v-60l80-77v-332h-50v-60h414v60h-50v332Zm-313 77h312l-59-55v-354H380v354l-59 55Zm156 0Z"/>
+        </svg>
+       </div>
+    </div>
+    <div class="description">
+        <input type="text" placeholder="Take a note..." class="desc">
+    </div>
+    <div class="icon">
+    <app-icons></app-icons>
+    <div class="close">
+        <button>close</button>
+    </div>
+</div>
+    </div>
+</div>

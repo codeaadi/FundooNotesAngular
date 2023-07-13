@@ -1,0 +1,76 @@
+  <div class="container">
+    <div class="content">
+         <div class="main">
+    <div class="google">
+      <div class="txt G">G</div>
+      <div class="txt o">o</div>
+      <div class="txt O">o</div>
+      <div class="txt G">g</div>
+      <div class="txt l">l</div>
+      <div class="txt e">e</div>
+    </div>
+
+    <div class="txt1">Create Your Google Account</div>
+    <form [formGroup]="registerForm" (ngSubmit)="onsubmit()">
+      <div class="Name">
+       
+        <mat-form-field appearance="outline" class="first ">
+          <mat-label>FirstName</mat-label>
+          <input matInput formControlName="FirstName" placeholder="FirstName">
+          
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <mat-label>LastName</mat-label>
+          <input matInput formControlName="LastName" class="lm"placeholder="LastName">
+         
+        </mat-form-field>
+      </div>
+      <div class="emaildiv">
+      <div class="UserName">
+      <mat-form-field appearance="outline" class="user">
+        <mat-label>UserName</mat-label>
+        <input formControlName="UserName" matInput placeholder="UserName" />
+      </mat-form-field>
+    </div>
+    <div class="inst">
+      <p>
+      You can use letters, numbers & periods
+    </p>
+    </div>
+    <div class="anchor">
+      <a href="#">Use my current email address instead</a>
+    </div>
+   
+  </div>
+     
+    <div class="pass">
+      <mat-form-field appearance="outline" class="password">
+        <mat-label>Password</mat-label>
+        <input  formControlName="password"  matInput placeholder="Password" />
+      </mat-form-field>
+      <mat-form-field appearance="outline" class="example-form-field" class="confirm">
+        <mat-label>Confirm</mat-label>
+        <input formControlName="confirm"  matInput placeholder="Confirm" />
+      </mat-form-field>
+    </div>
+    <div class="spn">
+      <span
+      class="char"
+        >Use 8 or more characters with a mix of letters, numbers & symbols</span
+      >
+    </div>
+    <div class="navi">
+      <a class="signI" href="#">Sign in instead</a>
+      <button class="nxt" type="submit">Next</button>
+    </div>
+    </form>
+    
+  </div>
+  <div class="img">
+    <img src="https://cdn.dribbble.com/users/129991/screenshots/4399126/01.png" alt="">
+</div>
+</div>
+
+
+</div>
