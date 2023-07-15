@@ -20,6 +20,10 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatListModule} from '@angular/material/list';
 import { CreatenoteComponent } from './notes/createnote/createnote.component';
 import { IconsComponent } from './notes/icons/icons.component';
+import { FormsModule } from '@angular/forms';
+import {MatMenuModule} from '@angular/material/menu';
+import { DisplayNoteComponent } from './notes/display-note/display-note.component';
+import { GetallnotesComponent } from './notes/getallnotes/getallnotes.component';
 
 
 @NgModule({
@@ -32,6 +36,9 @@ import { IconsComponent } from './notes/icons/icons.component';
     DashboardComponent,
     CreatenoteComponent,
     IconsComponent,
+    DisplayNoteComponent,
+    GetallnotesComponent,
+    
   ],
   imports: [
     BrowserModule,
@@ -46,6 +53,8 @@ import { IconsComponent } from './notes/icons/icons.component';
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
+    FormsModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]

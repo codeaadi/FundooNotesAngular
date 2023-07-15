@@ -1,6 +1,7 @@
-<div class="main">
+<div class="main" *ngIf="togle">
 <div class="container" >
-    <div class="text"(click)="togle=!togle">Take a note...</div>
+    <div class="text" (click)="ontoggle()"
+    >Take a note...</div>
     <div class="newList">
         <svg 
         xmlns="http://www.w3.org/2000/svg" 
@@ -31,11 +32,12 @@
     </div>   
 </div>
 </div> 
-<div class="main" *ngif="!togle">
+
+<div class="main" *ngIf="!togle">   
     <div class="container1">
     <div class="title">
         <div class="t">
-       <input type="text" placeholder="Title" class="ttl">
+       <input  [(ngModel)]="Title" type="text" placeholder="Title" class="ttl" >
         </div>
        <div class="pin">
         <svg 
@@ -48,13 +50,14 @@
        </div>
     </div>
     <div class="description">
-        <input type="text" placeholder="Take a note..." class="desc">
+        <input [(ngModel)]="description" type="text" placeholder="Take a note..." class="desc">
     </div>
     <div class="icon">
     <app-icons></app-icons>
     <div class="close">
-        <button>close</button>
+        <button (click)="ontoggle();createNote()">close</button>
     </div>
 </div>
     </div>
 </div>
+

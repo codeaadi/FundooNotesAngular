@@ -1,0 +1,14 @@
+<div class="container">
+  <mat-card *ngFor="let note of childData">
+    <mat-card-content>
+      <mat-card-title class="ttle">
+        {{ note.title }}
+      </mat-card-title>
+      <mat-card-title class="desc">
+        {{ note.description }}
+      </mat-card-title>
+
+    </mat-card-content>
+    <app-icons></app-icons>
+  </mat-card>
+</div>

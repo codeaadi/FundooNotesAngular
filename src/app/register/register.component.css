@@ -151,4 +151,5 @@ a{
     color: white;
     letter-spacing: 1px;
     border-radius: 7px;
+    cursor: pointer;
 }

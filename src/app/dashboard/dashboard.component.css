@@ -122,3 +122,8 @@ mat-list-item:active {
 mat-drawer-container{
     background-color: #ffffff;
 }
+.account{
+  position: relative;
+  left: 50px;
+  top:3px
+}

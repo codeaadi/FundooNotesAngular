@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" >
   <div class="menu">
     <div class="left">
       <svg
@@ -91,12 +91,19 @@
           />
         </svg>
       </div>
+      <!-- <div class="account">
+        <button mat-icon-button matTooltip="account" >
+        <mat-icon>account_circle</mat-icon>
+      </button> -->
+      <!-- <mat-menu #menu="matMenu" xPosition="before">
+
+      </mat-menu> -->
     </div>
   </div>
     <mat-drawer-container class="matcontainer">
         <mat-drawer   #drawer class="matdrawer1" mode="side" opened="true">
             <mat-nav-list>
-                <mat-list-item>
+                <mat-list-item routerLink="/dashboard/notes">
             <button matButton>
                 <svg 
                 class="sIcons"
@@ -169,7 +176,7 @@
     </mat-nav-list>
         </mat-drawer>
         <mat-drawer-content>
-          <app-createnote></app-createnote>
+         <router-outlet></router-outlet>        
         </mat-drawer-content>
     </mat-drawer-container>
   </div>
